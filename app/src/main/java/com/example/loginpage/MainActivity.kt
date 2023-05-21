@@ -18,10 +18,10 @@ class MainActivity : AppCompatActivity() {
         supportActionBar?.hide()
 
         binding.btnLogin.setOnClickListener{
-            startActivity(Intent(this, LoginActivity::class.java))
+            startActivity(Intent(this, GenerateQRActivity::class.java))
         }
         binding.btnRegister.setOnClickListener{
-            startActivity(Intent(this, RegisterActivity::class.java))
+            startActivity(Intent(this, VerifyQRActivity::class.java))
         }
     }
 }

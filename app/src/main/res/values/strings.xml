@@ -38,5 +38,7 @@
     <string name="home_title">Hello World!</string>
     <string name="home_sub_title">Welcome to home</string>
     <string name="btn_logout">LOGOUT</string>
+    <string name="scan_qr">Scan QR</string>
+    <string name="verification_status">Verification Status</string>
 
 </resources>
